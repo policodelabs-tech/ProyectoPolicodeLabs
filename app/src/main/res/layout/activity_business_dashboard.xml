@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/look_and_fell"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center_horizontal"
+    tools:context=".BusinessDashboardActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="QuickFleet"
+        android:textSize="32sp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Entrega fácil Negocio feliz"
+        android:textSize="14sp"
+        android:layout_marginBottom="48dp"/>
+
+    <TextView
+        android:id="@+id/textViewWelcome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bienvenido [Usuario Negocio]"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="A continuación te presentamos las distintas funciones que tienes disponibles:"
+        android:textSize="16sp"
+        android:layout_marginBottom="48dp"/>
+
+    <Button
+        android:id="@+id/btnCreateConnection"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Crea conexión a negocio"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btnDriversLocation"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Ubicación de repartidores"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btnCompletedRoutes"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Rutas Completadas"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btnAssignOrders"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Asignación de pedidos"/>
+
+</LinearLayout>
